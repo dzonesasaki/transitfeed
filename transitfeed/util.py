@@ -26,7 +26,7 @@ import re
 import socket
 import sys
 import time
-import urllib2
+import urllib  #instead of import urllib2  , ref to https://github.com/google/transitfeed/issues/511
 
 from . import errors
 from .version import __version__
